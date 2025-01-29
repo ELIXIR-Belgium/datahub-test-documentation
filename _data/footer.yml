@@ -1,5 +1,4 @@
-copyright: 'Copyright ©️2009-Present, University of Manchester and HITS gGmbH'
-extra_line: 
+extra_line:
 columns:
   - type: image
     image_width: 64px
@@ -8,7 +7,7 @@ columns:
     alt: SEEK logo
   - type: links
     width: 2
-    children: 
+    children:
       - url_text: Home
         url: /
       - url_text: "Get FAIRDOM-SEEK"
@@ -26,7 +25,7 @@ columns:
         url: /help/user-guide/api
   - type: links
     width: 2
-    children: 
+    children:
       - url_text: Technical References
         url: /tech/
       - url_text: Roadmap
