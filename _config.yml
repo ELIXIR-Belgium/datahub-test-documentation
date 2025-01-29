@@ -10,6 +10,8 @@ plugins:
   - jekyll-redirect-from
 
 title: "FAIRDOM-SEEK Documentation"
+instance_name: "DataHub"
+
 
 exclude:
  - Gemfile*
@@ -35,10 +37,10 @@ defaults:
     values:
       sidebar: tech
 
-theme_variables: 
+theme_variables:
   #git_host: GitHub
   #back_to_top: true
-  #github_buttons: 
+  #github_buttons:
   #  position: top
   #  edit_me: true
   #  open_issue: true
