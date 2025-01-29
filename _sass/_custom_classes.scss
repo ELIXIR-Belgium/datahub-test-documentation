@@ -1,7 +1,7 @@
 /*---Header---*/
 //header .navbar {
-    //background-color: #f0f5fd;
-    //border: thin solid #e7e7e7;
+//background-color: #f0f5fd;
+//border: thin solid #e7e7e7;
 //}
 
 .form-control::placeholder {
@@ -10,7 +10,7 @@
 
 
 @include media-breakpoint-up(md) {
-    header .input-group > .form-control {
+    header .input-group>.form-control {
         width: 250px;
     }
 }
@@ -21,6 +21,7 @@
 }
 
 @include media-breakpoint-up(lg) {
+
     /* Scroll bar on left sidebar */
     #sidebar {
         top: 3rem;
@@ -31,7 +32,9 @@
     }
 }
 
-#main h1, #main h2, #main h3 {
+#main h1,
+#main h2,
+#main h3 {
     color: $secondary;
     font-weight: normal;
 }
@@ -39,12 +42,14 @@
 /*---screenshots----*/
 p:has(img.screenshot) {
     text-align: center;
+
     img.screenshot {
         border: 1px solid $border-color;
         border-radius: $border-radius;
         padding: 1em;
     }
 }
+
 @include media-breakpoint-up(md) {
     img.screenshot {
         max-width: 40em;
