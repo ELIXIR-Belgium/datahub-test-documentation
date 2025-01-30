@@ -10,7 +10,8 @@ plugins:
   - jekyll-redirect-from
 
 title: "FAIRDOM-SEEK Documentation"
-instance_name: "DataHub"
+topnav_title: ""
+instance_name: "FAIRDOM-SEEK"
 
 
 exclude:
