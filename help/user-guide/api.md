@@ -2,7 +2,7 @@
 title: API Introduction
 ---
 
-FAIRDOM-SEEK includes a [JSON](https://www.json.org/) Application
+{{ site.instance_name }} includes a [JSON](https://www.json.org/) Application
 Programming Interface (API) that allows the **searching,
 listing, reading, updating and creating** of many items in SEEK, 
 along with their attributes.

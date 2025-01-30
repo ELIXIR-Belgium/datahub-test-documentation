@@ -3,7 +3,7 @@ title: FAIRDOM-SEEK Definitions
 redirect_from: /definitions
 ---
 
-Definition of terms used in FAIRDOM-SEEK.
+Definition of terms used in {{ site.instance_name }}.
 
 ---
 
@@ -351,12 +351,12 @@ Tab showing items related to the selected one.
 ### Search
 To search for a specific query. The search will attempt to find partial matches for the search term in all item categories. The search can be restricted to one specific item category (e.g. Documents), as for browsing.
 #### External
-The search can be extended to incude results from external online resources Linked? Integrated? with FAIRDOM-SEEK.
+The search can be extended to incude results from external online resources Linked? Integrated? with {{ site.instance_name }}.
 #### Advanced search with filtering
 To access the query and the faceted navigation option for one specific item category (e.g. Documents). 
 
 ### Storage Usage
-Storage metrics, for Programmes and Projects, available to FAIRDOM-SEEK administrator. It provides the total size of all Programme or Project assets.
+Storage metrics, for Programmes and Projects, available to {{ site.instance_name }} administrator. It provides the total size of all Programme or Project assets.
 ### Change picture or avatar
 Custom graphic for a secific item.
 ### (number)
@@ -371,7 +371,7 @@ Number of items of a category (e.g. Documents) visible to you.
 ### Bio.tools
 To fetch bio.tools identifiers.
 ### Copasi
-To download a public SBML format model from FAIRDOM-SEEK to a locally installed Copasi application and start the simulation in Copasi.
+To download a public SBML format model from {{ site.instance_name }} to a locally installed Copasi application and start the simulation in Copasi.
 ### JWS online
 To visualise the model in JWS online.
 ### DOI minting
@@ -381,9 +381,9 @@ To apply LifeMonitor algorithm to workflows.
 ### NeLS
 To enable linking of datasets stored in the Norwegian e-infrastructure for Life Sciences (NeLS), as well as upload and access of datasets to/from NeLS through SEEK
 ### OpenBIS
-To fetch and register OpnBIS elements in FAIRDOM-SEEK.
+To fetch and register OpnBIS elements in {{ site.instance_name }}.
 ### Publish in Zenodo
-To publish a snapshot to Zenodo from FAIRDOM-SEEK.
+To publish a snapshot to Zenodo from {{ site.instance_name }}.
 <!--### Project folders
 Free folders within a project to group registered items.-->
 ### Single page
