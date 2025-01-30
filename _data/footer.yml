@@ -23,6 +23,8 @@ columns:
         url: /help/user-guide/
       - url_text: API Introduction
         url: /help/user-guide/api
+      - url_text: Use-cases
+        url: /use-cases
   - type: links
     width: 2
     children:
