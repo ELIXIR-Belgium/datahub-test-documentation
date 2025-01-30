@@ -2,7 +2,30 @@
 sidebar: false
 title: DataHub Documentation
 ---
-![FAIRDOM-SEEK logo]({{ "/images/banner-plain.svg" | relative_url }})
+
+<div class="row">
+    <div class="col text-center">
+       <img src="images/datahub_logo2.svg" />
+    </div>
+</div>
+
+<h2>
+<i class="fa-solid fa-flask-vial fa-1x"></i> <i class="fa-solid fa-magnifying-glass-chart fa-1x"></i>
+ About DataHub
+</h2>
+
+DataHub is an instance of the FAIRDOM-SEEK software (previously known as SEEK) and shares the same documentation. Consequently, the general user guide includes documentation about FAIRDOM-SEEK features that might not be available in DataHub by design.
+
+For more specific documentation related to DataHub, users should follow the step-by-step guide provided below.
+
+### Step-by-step guides
+
+#### For research group
+
+- [Overview](/step-by-step-research-group#overview)
+- [Group leader](/step-by-step-research-group#group-leader)
+- [Researcher](/step-by-step-research-group#researcher)
+- [Creator of templates](/step-by-step-research-group#creator-of-templates)
 
 <h2>
 <i class="fa-solid fa-flask-vial fa-1x"></i> <i class="fa-solid fa-magnifying-glass-chart fa-1x"></i>
