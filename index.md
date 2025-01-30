@@ -1,6 +1,6 @@
 ---
 sidebar: false
-title: FAIRDOM-SEEK Documentation
+title: DataHub Documentation
 ---
 ![FAIRDOM-SEEK logo]({{ "/images/banner-plain.svg" | relative_url }})
 
