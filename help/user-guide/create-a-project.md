@@ -14,7 +14,7 @@ A member of the Project will also be related to an Institution for the context o
 
 ## What is a Programme
 
-If configured to be enabled, FAIRDOM-SEEK may also have Programmes. Programmes are an umbrella that contains one or more Projects. They are a self-administered area, that describes a broad activity (usually related to a funded grant), such as a consortium, or a long-running activity that will need additional Projects.
+If configured to be enabled, {{ site.instance_name }} may also have Programmes. Programmes are an umbrella that contains one or more Projects. They are a self-administered area, that describes a broad activity (usually related to a funded grant), such as a consortium, or a long-running activity that will need additional Projects.
 
 Once approved, The Programme will have a [Programme Administrator](roles#programme-administrator) who is free to immediately create additional Projects without requiring additional approval.
 
@@ -24,7 +24,7 @@ For users that just require a single Project, and don't require a Programme, a s
 
 ## Creating a Project
 
-You will first be prompted to create (or [Join a Project](join-a-project)) following registering a new FAIRDOM-SEEK account. If you are already a member and wish to add additional Projects, you can choose to create a Project from the _Create_ menu in the top bar.
+You will first be prompted to create (or [Join a Project](join-a-project)) following registering a new {{ site.instance_name }} account. If you are already a member and wish to add additional Projects, you can choose to create a Project from the _Create_ menu in the top bar.
 
 ### Choosing a Programme
 
@@ -55,5 +55,5 @@ If describing a new Institution only the title is required, but you can also pro
 
 If you are creating a Project within a Programme you administer, then there is no approval step. You will be shown a page to review the details and then create straight away.
 
-Otherwise, an appropriate administrator will be notified by email about your request. They will also be notified directly when using FAIRDOM-SEEK. The administrator will be shown a page that allows them to quickly review the details and either accept or reject the request, and in either case you will be notified by email.
+Otherwise, an appropriate administrator will be notified by email about your request. They will also be notified directly when using {{ site.instance_name }}. The administrator will be shown a page that allows them to quickly review the details and either accept or reject the request, and in either case you will be notified by email.
 

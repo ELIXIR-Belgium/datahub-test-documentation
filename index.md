@@ -26,7 +26,7 @@ To find out how to install FAIRDOM-SEEK on your own machine, or install FAIRDOM-
 
 ### Latest User Guide
 
-General documentation on how to use and administer FAIRDOM-SEEK can be found in our [<i class="fa-solid fa-user-group fa-1x"></i> <i class="fa-solid fa-book fa-1x"></i> User Guide]({{ site.baseurl }}/help/user-guide/).
+General documentation on how to use and administer {{site.instance_name}} can be found in our [<i class="fa-solid fa-user-group fa-1x"></i> <i class="fa-solid fa-book fa-1x"></i> User Guide](/help/user-guide/).
 
 ### API documentation
 

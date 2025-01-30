@@ -44,5 +44,5 @@ You also have the option to provide a comment to describe why you wish to join t
 
 ### Approval step
 
-Your request will be sent to the Project administrators, both through email or a notification in FAIRDOM-SEEK. You will either then be approved and added to the Project, or your request may be rejected. Either way, you will be notified by email of the outcome.
+Your request will be sent to the Project administrators, both through email or a notification in {{ site.instance_name }}. You will either then be approved and added to the Project, or your request may be rejected. Either way, you will be notified by email of the outcome.
 
