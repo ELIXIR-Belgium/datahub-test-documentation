@@ -1,4 +1,4 @@
-## 
+##
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 subitems:
 - title: Home
@@ -19,6 +19,4 @@ subitems:
   url: /tech/
 - title: Use-cases
   url: /use-cases
-- title: Get Started
-- title: About us
 ## move some links to footer
