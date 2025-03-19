@@ -1,6 +1,6 @@
 #baseurl: /seek
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.2.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@add-custom-repository-branch
 
 current_seek_version: "1.16.1"
 current_docker_tag: "1.16"
@@ -39,7 +39,7 @@ defaults:
       sidebar: tech
 
 theme_variables:
-  show_breadcrumb: true
+  breadcrumb: true
   #git_host: GitHub
   #back_to_top: true
   #github_buttons:
@@ -57,3 +57,8 @@ theme_variables:
     #twitter: false
   theme_color: 8cddf6
 # theme color is not working! Trying c23669 from RDMkit doesn't help
+
+github:
+  repository_url: https://github.com/seek4science/seek-documentation
+  source:
+    branch: main

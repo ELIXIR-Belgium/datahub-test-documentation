@@ -1,6 +1,8 @@
 ---
 sidebar: false
 title: DataHub Documentation
+custom_repo_url: https://github.com/ELIXIR-Belgium/datahub-test-documentation
+custom_repo_branch: datahub-latest-documentation
 ---
 <div class="col text-center">
     <img src="{{ 'images/datahub_banner_600.svg' | relative_url }}" />
