@@ -1,6 +1,6 @@
 #baseurl: /seek
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.1.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.2.0
 
 current_seek_version: "1.16.2"
 current_docker_tag: "1.16"
@@ -39,6 +39,7 @@ defaults:
       sidebar: technical_references
 
 theme_variables:
+  show_breadcrumb: true
   #git_host: GitHub
   #back_to_top: true
   #github_buttons:
