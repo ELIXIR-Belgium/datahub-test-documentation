@@ -14,22 +14,22 @@ The names of different features and functions may vary across FAIRDOM-SEEK insta
 - [Aliases across FAIRDOM-SEEK instances](./aliases)
 
 {% include callout.html type="important" content="
-Note that FAIRDOM-SEEK instances are highly customisable. Functionality such as e.g. the ISA structure, ISA-JSON compliant 
-experiments and the different asset types need to be enabled by an instance admin. 
-Therefore, some functionality described in this general user guide might not be available on your local instance. 
+Note that FAIRDOM-SEEK instances are highly customisable. Functionality such as e.g. the ISA structure, ISA-JSON compliant
+experiments and the different asset types need to be enabled by an instance admin.
+Therefore, some functionality described in this general user guide might not be available on your local instance.
 Please contact your local instance admin for more information.
 " %}
 
-## Archived help pages 
+## Archived help pages
 
-All other pages have been [archived](/help/archived) and may not provide current information. 
+All other pages have been [archived]({{ site.baseurl }}/help/archived) and may not provide current information.
 They are organised into sections for data and model annotations, controlled vocabularies and JERM.
 
 ## Contributing
 
 There are many ways in which you can contribute to the SEEK software, these documents or our [FAIRDOM](https://fair-dom.org) project.
 
-If you are interested in contributing please visit our [Contributors guide](/tech/contributing).
+If you are interested in contributing please visit our [Contributors guide]({{ site.baseurl }}/tech/contributing).
 
 
 <!-- THE FOLLOWING IS REPLACED BY THE SIDEBAR:
@@ -87,9 +87,9 @@ Capabilities
   - [Making public](investigation-snapshots.html#making-public)
   - [Snapshotting](investigation-snapshots.html#snapshotting)
   - [Creating a Research Object](investigation-snapshots.html#creating-a-research-object)
-  - [Assigning a DOI](investigation-snapshots.html#assigning-a-doi)  
-      
-## Assets      
+  - [Assigning a DOI](investigation-snapshots.html#assigning-a-doi)
+
+## Assets
 - [Adding assets (data, models, SOPs, publications) to SEEK](adding-assets.html)
 - [Data Files](general-attributes.html#data-files)
   - [Data file wizard](data-file-upload-wizard.html)
@@ -105,7 +105,7 @@ Capabilities
   - [Comparing two versions of a Model](model-comparison.html)
 
 ## Samples
-- [Samples](samples.html) 
+- [Samples](samples.html)
   - [Create a Sample Type](create-sample-type.html)
   - [Create a Sample](create-sample.html)
   - [Legacy Biosamples](legacy-biosamples.html)

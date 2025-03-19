@@ -13,17 +13,17 @@ redirect_from: "/get_seek.html"
 
 ### Installation
 
-For details on how to install FAIRDOM-SEEK please refer to our [Installation Guide](tech/install).
+For details on how to install FAIRDOM-SEEK please refer to our [Installation Guide]({{ site.baseurl }}/tech/install).
 
-For details on how to upgrade an existing FAIRDOM-SEEK installation please refer to our [Upgrade Guide](tech/upgrading).
+For details on how to upgrade an existing FAIRDOM-SEEK installation please refer to our [Upgrade Guide]({{ site.baseurl }}/tech/upgrading).
 
 ### Docker
 
-FAIRDOM-SEEK can also be deployed using [Docker](https://docker.com), for which we provide Docker images. Please read our [Docker guide](/tech/docker).
+FAIRDOM-SEEK can also be deployed using [Docker](https://docker.com), for which we provide Docker images. Please read our [Docker guide]({{ site.baseurl }}/tech/docker).
 
 ### Changes
 
-To review changes and new features introduced between FAIRDOM-SEEK versions please visit our [Change Log](/tech/releases/).
+To review changes and new features introduced between FAIRDOM-SEEK versions please visit our [Change Log]({{ site.baseurl }}/tech/releases/).
 
 
 

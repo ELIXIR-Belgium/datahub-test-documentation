@@ -3,13 +3,13 @@ title: Reporting Bugs and raising Feature Requests
 ---
 
 
-You can report bugs or request new features using the any of the [methods to contact us](/contacting-us). Preferably submit a [GitHub issue](https://fair-dom.org/issues).
+You can report bugs or request new features using the any of the [methods to contact us]({{ site.baseurl }}/contacting-us). Preferably submit a [GitHub issue](https://fair-dom.org/issues).
 
 First check [Existing Issues](https://fair-dom.org/issues) in order to see if your planned contribution is new.
 
 If you find a feature or bug has already been reported, please don't let this deter you from reporting it yourself. Doing so will help prioritise issues.
 
-If you can contribute to fix or add the feature, please read our [Contributors guides](/tech/contributing). If you are planning on contributing a feature or bug fix, it is still
+If you can contribute to fix or add the feature, please read our [Contributors guides]({{ site.baseurl }}/tech/contributing). If you are planning on contributing a feature or bug fix, it is still
 advisable to discuss it with us first, as it may be something that is already being worked on and we would want to avoid wasted effort.
 
 Generally please provide the following information:

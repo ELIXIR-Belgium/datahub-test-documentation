@@ -7,7 +7,7 @@ redirect_from: "/roadmap.html"
 
 This is an outline of plans the core FAIRDOM-SEEK development team will be working on in the near future.
 
-It is an overview of the main priorities, and milestones. FAIRDOM-SEEK is developed following an Agile development process, meaning some of the features and timing may change - however, these items are very high in our priorities. 
+It is an overview of the main priorities, and milestones. FAIRDOM-SEEK is developed following an Agile development process, meaning some of the features and timing may change - however, these items are very high in our priorities.
 
 They are expected to be added to FAIRDOM-SEEK in roughly the order they are presented here.
 
@@ -28,7 +28,7 @@ They are expected to be added to FAIRDOM-SEEK in roughly the order they are pres
 
 <br/>
 
-Please also see the [WorkflowHub Roadmap](https://about.workflowhub.eu/roadmap/), 
+Please also see the [WorkflowHub Roadmap](https://about.workflowhub.eu/roadmap/),
 which is being built on and in conjunction with FAIRDOM-SEEK.
 
 ---
@@ -37,7 +37,7 @@ which is being built on and in conjunction with FAIRDOM-SEEK.
 
 These are completed Roadmap features, and includes the version of SEEK the feature was included in.
 
-You can find more details about each release in our [Change Logs](/tech/releases/)
+You can find more details about each release in our [Change Logs]({{ site.baseurl }}/tech/releases/)
 
 
 | Feature                                                                              | SEEK version |

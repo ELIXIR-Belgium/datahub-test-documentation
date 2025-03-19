@@ -7,19 +7,19 @@ title: Project Dashboard
 
 The Project Dashboard page contains various charts presenting metrics on activity within the project over a given time period.
 
-![dashboard button](/images/user-guide/dashboard/dashboard-period-select.png){:.screenshot}
+![dashboard button]({{ site.baseurl }}/images/user-guide/dashboard/dashboard-period-select.png){:.screenshot}
 
 ## Accessing the Dashboard
 
 The dashboard is accessible to all project members through a button on the project's page.
 
-![dashboard button](/images/user-guide/dashboard/dashboard-button.png){:.screenshot}
+![dashboard button]({{ site.baseurl }}/images/user-guide/dashboard/dashboard-button.png){:.screenshot}
 
 ## Submissions
 
 The submissions graph shows all project assets that have been created over the time period. The interval can be changed to group results by day, month or year. Asset types can be excluded from the graph by clicking their entry in the legend on the right-hand side. Double-clicking an asset type will hide all asset types *except* that one.
 
-![dashboard contributions](/images/user-guide/dashboard/dashboard-contributions.png){:.screenshot}
+![dashboard contributions]({{ site.baseurl }}/images/user-guide/dashboard/dashboard-contributions.png){:.screenshot}
 
 ## Asset Accessibility
 
@@ -31,7 +31,7 @@ The three levels of accessibility are:
  * *Project accessible* - Assets that can be accessed (and downloaded if applicable) by members of this project.
  * *Other* - Assets that are private, or have limited access.
 
-![dashboard accessibility](/images/user-guide/dashboard/dashboard-accessibility.png){:.screenshot}
+![dashboard accessibility]({{ site.baseurl }}/images/user-guide/dashboard/dashboard-accessibility.png){:.screenshot}
 
 ## Most viewed and downloaded Assets
 

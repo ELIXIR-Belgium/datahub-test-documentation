@@ -6,7 +6,7 @@ redirect_from: "/install.html"
 
 ## Introduction
 
-These steps describe how to install SEEK directly on the machine (_bare-metal_). 
+These steps describe how to install SEEK directly on the machine (_bare-metal_).
 
 Docker is also supported, which in many cases is simpler and quicker, please read the [Docker Compose guide](docker/docker-compose).
 
@@ -15,7 +15,7 @@ short, optional [SEEK Registration
 Form](https://seek4science.org/seek-registration)
 
 If you have any problems or questions, you should contact us. The following
-link will give you details on how to [Contact Us](/contacting_us)
+link will give you details on how to [Contact Us]({{ site.baseurl }}/contacting_us)
 
 SEEK is based upon the Ruby on Rails platform. Although the information on
 this page should provide you with everything you need to get a basic
@@ -69,11 +69,11 @@ Installing these packages now will make installing Ruby easier later on:
 
     sudo apt install autoconf automake bison curl gawk libffi-dev libgdbm-dev \
         libncurses5-dev libsqlite3-dev libyaml-dev sqlite3
-        
+
 SEEK's Solr implementation currently requires Java 11, so you may need to switch the system's default Java runtime:
 
     sudo update-alternatives --config java
-    
+
 ...and select the version named `/usr/lib/jvm/java-11-openjdk-amd64/bin/java` or similar.
 
 ## Development or Production?
@@ -151,7 +151,7 @@ First, a specific version of `setuptools` needs to be installed to avoid an issu
 Then the other dependencies can be installed
 
     python3.9 -m pip install -r requirements.txt
-    
+
 
 ## Setting up the Database
 
@@ -165,7 +165,7 @@ default version of this and then edit it:
 Change this for each environment (development,production,test).
 
 Now you need to grant permissions for the user and password you just used
-(changing the example below appropriately). 
+(changing the example below appropriately).
 
     > sudo mysql
     Enter password:
@@ -199,7 +199,7 @@ Production](install-production) guide for automating these services.
 
 ### Setting up and starting the Search Service
 
-SEEK uses the [Apache Solr Search Engine](https://solr.apache.org/) which since SEEK v1.12 needs setting up 
+SEEK uses the [Apache Solr Search Engine](https://solr.apache.org/) which since SEEK v1.12 needs setting up
 separately. It is relatively straightforward and there are instructions on how to do this in [Setting Up Solr](setting-up-solr).
 
 ### Starting and Stopping the Background Service

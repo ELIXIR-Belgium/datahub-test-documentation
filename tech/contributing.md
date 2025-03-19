@@ -14,10 +14,10 @@ However, if there other ways you feel you can contribute, such as running a work
 
 ## Contributing to SEEK
 
-Please read [contributing to SEEK](/tech/contributing-to-seek) or [reporting a bug or feature request](/tech/reporting-bugs-and-features).
+Please read [contributing to SEEK]({{ site.baseurl }}/tech/contributing-to-seek) or [reporting a bug or feature request]({{ site.baseurl }}/tech/reporting-bugs-and-features).
 
 
 ## Contributing to these pages
 
 You can also contribute to these pages.
-Please read [contributing to these pages](/tech/contributing-to-pages) and the [style guide](/tech/style-guide).
+Please read [contributing to these pages]({{ site.baseurl }}/tech/contributing-to-pages) and the [style guide]({{ site.baseurl }}/tech/style-guide).

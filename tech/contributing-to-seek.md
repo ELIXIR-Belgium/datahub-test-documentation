@@ -7,8 +7,8 @@ We welcome all sorts of contributions to SEEK,
 
 * **Non-developer contributions.** These are contributions that can be made by anyone
   using SEEK.
-  * *Vote and comment other feature requests:* [Contact us](/contacting-us) please use the [SEEK issue tracker](https://fair-dom.org/issues). 
-  * *Documentation:* Are you reading the documentation and feel something could/should be better explained? Please read [Contributing to these Pages](/tech/contributing-to-pages)
+  * *Vote and comment other feature requests:* [Contact us](/contacting-us) please use the [SEEK issue tracker](https://fair-dom.org/issues).
+  * *Documentation:* Are you reading the documentation and feel something could/should be better explained? Please read [Contributing to these Pages]({{ site.baseurl }}/tech/contributing-to-pages)
   * *Reporting errors:* We are also thankful if you spot errors or broken links.
 * **Developer contributions** These are contributions that can be made by other software
   developers.
