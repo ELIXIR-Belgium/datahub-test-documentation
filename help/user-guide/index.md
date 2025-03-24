@@ -155,8 +155,8 @@ Capabilities
 - [API Introduction](api.html)
 
 ## Contribute
-- [Reporting a bug or feature request](/tech/reporting-bugs-and-features.html)
-- [Contributing to these SEEK Documents](/contributing.html)
+- [Reporting a bug or feature request]({{ site.baseurl }}/tech/reporting-bugs-and-features.html)
+- [Contributing to these SEEK Documents]({{ site.baseurl }}/contributing.html)
 
 
 -->
