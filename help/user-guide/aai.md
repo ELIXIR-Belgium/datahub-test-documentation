@@ -34,6 +34,6 @@ which outlines what personal data will be provided by LS Login to the SEEK insta
 At a minimum, the identifier must be provided, or login is not possible. Any other information is used solely to
 populate fields in your SEEK profile.
 
-If this is your first time logging in via LS Login, you will be directed to create a new "Profile". For guidance on how to do this, see [Registering in SEEK]({{ site.baseurl }}/registering#new-profile). Some fields such as your name and email address may already be populated with information provided by your institution.
+If this is your first time logging in via LS Login, you will be directed to create a new "Profile". For guidance on how to do this, see [Registering in SEEK](registering#new-profile). Some fields such as your name and email address may already be populated with information provided by your institution.
 
 Otherwise, you will be directed to the home page and should now be logged in.
