@@ -114,11 +114,6 @@ You can also add non-SEEK creators using free text.
 
 Creators can be removed easily where necessary.
 
-
-## SOPs
-[Assay specific]
-SOPs are standard operating procedures which describe the protocol required to reproduce the assay. They can be in any format (word files, e-lab notebooks, code, annotated spreadsheets etc). Relevant SOPs can be linked directly to the assay via the dropdown menu.
-
 ## Data Files
 [Assay specific]
 Data files can be any file containing data relevant to the assay (raw data, processed data, calibration information etc). They can be in any format (word files, e-lab notebooks, code, annotated spreadsheets etc). Relevant data files can be linked directly to the assay via the dropdown menu.
@@ -129,15 +124,6 @@ A Placeholder indicates data that will be consumed, used or produced when a Proj
 
 ## File Templates
 A File Template describes conforming DataFiles. It may be annotated with information about the format and type of data in the DataFiles. Annotations are *not* about the File Template itself. For example, a File Template that is a Word document may describe conformant PNG images.
-
-## Publications
-If your asset is directly related to a publication you can link the two together in SEEK. You can select publications within your project form the drop-down menu. If the publication is in another project you need to check the box that says associate publications from other projects.
-
-![add publication 1]({{ site.baseurl }}/images/user-guide/add_publication_1.png){:.screenshot}
-
-When a publication is added a preview will be shown in the bottom right hand corner of SEEK. It can be removed easily if needed.
-
-![add publication 2]({{ site.baseurl }}/images/user-guide/add_publication_2.png){:.screenshot}
 
 ## Experimental assays and Modelling analysis
 It is best that assets are contextualised using the ISA graph (more later). This means that assets where possible should be linked to an assay or an experimental analysis. This can be done by selecting an appropriate assay or experimental analysis from the drop down menu.

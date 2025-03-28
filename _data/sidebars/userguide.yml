@@ -1,74 +1,107 @@
 title: User Guide
 title_url: /help/user-guide/
 subitems:
-  - title: Definitions
-    url: /help/user-guide/definitions
+  - title: Introduction
+    subitems:
+    - title: Definitions
+      url: /help/user-guide/definitions
+    - title: Browsing content
+      url: /help/user-guide/browsing 
   - title: Profile
     description: Registering and logging into SEEK, managing your account and identities, editing your profile.
     subitems:
-    - title: Registering in SEEK
-      url: /help/user-guide/registering
+    - title: Registration and Login
       subitems:
+      - title: Registering in SEEK
+        url: /help/user-guide/registering
       - title: Logging into SEEK via LS Login
         url: /help/user-guide/aai
-    - title: Managing your account
-      url: /help/user-guide/managing-account
-      subitems:
       - title: Managing your identities/alternative login methods
         url: /help/user-guide/managing-identities
-    - title: Editing your profile
+    - title: My profile
+      subitems:
+      - title: Managing your account
+        url: /help/user-guide/managing-account
+    - title: Edit profile
       url: /help/user-guide/editing-profile
 #    - title: "[Favourites: drag and drop your favourite searchers]"
 #      url: ""
-  - 
-    #hr: true
-    title: Yellow Pages
-    description: Directory of common project tasks, specialist user roles, capabilities.
-    subitems: 
-    - title: "Directory"
+    - title: User roles and permissions
       subitems:
-      - title: Browsing content
-        url: /help/user-guide/browsing  
-      - title: Creating and managing your own Programmes
-        url: /help/user-guide/programme-creation-and-management
-      - title: Creating a Project
-        url: /help/user-guide/create-a-project
-      - title: Joining a Project
-        url: /help/user-guide/join-a-project
-      - title: Project Dashboard
-        url: /help/user-guide/project-dashboard
-      - title: Viewing Project in Experiment View
-        url: /help/user-guide/viewing-project-in-single-page
-    - title: Specialist user roles
-      url: /help/user-guide/roles
-    - title: Capabilities
-      subitems:
-      - title: Administer project members
-        url: /help/user-guide/administer-project-members
+      - title: Specialist user roles
+        url: /help/user-guide/roles
       - title: Adding admin items
         url: /help/user-guide/adding-admin-items
+      - title: Bulk changing of sharing permissions
+        url: /help/user-guide/bulk-change-sharing-permission
+      - title: Making an Investigation, Study or Assay citable
+        url: /help/user-guide/investigation-snapshots
+  -
+    #hr: true
+    title: Yellow Pages/Directory
+    description: Directory of common project tasks.
+    subitems: 
+      - title: "Programme"
+        subitems:
+        - title: Creating and managing your own Programmes
+          url: /help/user-guide/programme-creation-and-management
+      - title: "Projects"
+        subitems:
+        - title: Creating a Project
+          url: /help/user-guide/create-a-project
+        - title: Administer project members
+          url: /help/user-guide/administer-project-members
+        - title: Joining a Project
+          url: /help/user-guide/join-a-project
+        - title: Project Dashboard
+          url: /help/user-guide/project-dashboard
+        - title: Viewing Project in Experiment View
+          url: /help/user-guide/viewing-project-in-single-page
+#     - title: "[Institutions]"
+#       url: ""
+#     - title: "[People]"
+#       url: ""
   -
     #hr: true
     title: Experiments
-    description: Generating the ISA structure, designing an ISA-JSON compliant experiement, making items citable.
+    description: Generating the ISA structure, designing an ISA-JSON compliant experiment, making items citable.
     subitems: 
-    - title: Generating the ISA structure
-      url: /help/user-guide/generating-the-isa-structure
-    - title: ISA Overview Graph
-      url: /help/user-guide/isa-overview
-    - hr: true
-      title: Designing an ISA-JSON compliant experiment
-      url: /help/user-guide/designing-experiments-isajson-compliant
-    - title: ISA-JSON complient experiment
-      url: /help/user-guide/isa-json-compliant-experiment
+    - title: Introduction to the ISA structure
       subitems:
-        - title: Experiment Sample Templates
-          url: /help/user-guide/isajson-templates
-    - title: Export experiments as ISA-JSON
-      url: /help/user-guide/exporting-experiments-as-isajson
+      - title: Visualising ISA structure in SEEK
+        url: /help/user-guide/isa-overview
+      - title: Generating the ISA structure
+        url: /help/user-guide/generating-the-isa-structure
+#      - hr: true
+#        title: Designing an ISA-JSON compliant experiment
+#        url: /help/user-guide/designing-experiments-isajson-compliant
+    - title: ISA-JSON compliant experiments
+      url: /help/user-guide/isa-json-compliant-experiment
     - hr: true
-      title: Making an Investigation, Study or Assay citable
-      url: /help/user-guide/investigation-snapshots
+    - title: Investigations
+      subitems: 
+      - title: Creating an ISA-JSON compliant investigation
+        url: /help/user-guide/investigations
+      - title: Export experiments as ISA-JSON
+        url: /help/user-guide/exporting-experiments-as-isajson
+    - title: Studies
+      subitems: 
+      - title: Creating an ISA-JSON compliant study
+        url: /help/user-guide/studies
+      - title: Export experiments as ISA-JSON
+        url: /help/user-guide/exporting-experiments-as-isajson
+    - title: Assays
+      subitems: 
+      - title: Creating an ISA-JSON compliant assay
+        url: /help/user-guide/assays
+      - title: Export experiments as ISA-JSON
+        url: /help/user-guide/exporting-experiments-as-isajson
+    - title: Experiment Sample Templates
+      subitems: 
+      - title: Creating Experiment Sample Templates
+        url: /help/user-guide/isajson-templates
+      - title: Browse samples by Experiment Sample Template
+        url: /help/user-guide/browsing#browsing-samples-by-experiment-sample-templates
   -
     #hr: true
     title: Assets
@@ -76,10 +109,22 @@ subitems:
     subitems:
     - title: Adding assets (data, models, SOPs, publications) to SEEK
       url: /help/user-guide/adding-assets
-    - title: Data file wizard
-      url: /help/user-guide/data-file-upload-wizard
-    - title: Simulate a model on JWS Online
-      url: /help/user-guide/simulate-on-jws-online
+    - title: Data files 
+      subitems:
+      - title: Data file wizard
+        url: /help/user-guide/data-file-upload-wizard
+    - title: Models
+      subitems:
+#     - title: Models
+#       url: 
+      - title: Simulate a model on JWS Online
+        url: /help/user-guide/simulate-on-jws-online
+      - title: Comparing two versions of a Model
+        url: /help/user-guide/model-comparison
+    - title: SOPs
+      url: /help/user-guide/sops
+    - title: Publications 
+      url: /help/user-guide/publications
     - title: Collections
       url: /help/user-guide/collections
 #    - title: "[Document]"
@@ -90,25 +135,35 @@ subitems:
 #      url: ""
     - title: Creating new asset versions
       url: /help/user-guide/uploading-new-versions
-      subitems:
-      - title: Comparing two versions of a Model
-        url: /help/user-guide/model-comparison
+#  -
+#    #hr: true
+#    title: Activities
+#    description: How to change the events and presentations.
+#    subitems:
+#    - title: "[Presentation]"
+#      url: ""
+#    - title: Events
+#      url: /help/user-guide/general-attributes#events
   -
     #hr: true
     title: Samples
     description: Creating and browsing samples, and samples in ISA-JSON compliant experiments.
     subitems:
-    - title: Samples introduction
+    - title: Introduction
       url: /help/user-guide/samples
+    - title: Sample types
+      description: Creating and browsing samples, and samples in ISA-JSON compliant experiments.
       subitems:
       - title: Create a Sample Type
         url: /help/user-guide/create-sample-type
+    - title: Samples 
+      subitems:
       - title: Create a Sample
         url: /help/user-guide/create-sample
+      - title: Working with samples in ISA-JSON compliant Experiments
+        url: /help/user-guide/create-sample-isajson-compliant
       - title: Legacy Biosamples
         url: /help/user-guide/legacy-biosamples
-    - title: Working with samples in ISA-JSON compliant Experiments
-      url: /help/user-guide/create-sample-isajson-compliant
   -
     #hr: true
     title: General attributes and links
@@ -121,19 +176,9 @@ subitems:
 #      url: ""
     - title: Licenses
       url: /help/user-guide/licenses
-    - title: Bulk changing of sharing permissions
-      url: /help/user-guide/bulk-change-sharing-permission
+
 #    - title: "[Extended metadata]"
 #      url: ""
-#  -
-#    #hr: true
-#    title: Activities
-#    description: How to change the events and presentations.
-#    subitems:
-#    - title: "[Presentation]"
-#      url: ""
-#    - title: Events
-#      url: /help/user-guide/general-attributes#events
   - 
     #hr: true
     title: Integrations
@@ -143,10 +188,6 @@ subitems:
       url: /help/user-guide/openbis
     - title: Using Copasi with SEEK
       url: /help/user-guide/copasi-button
-    - title: Experiment view (or Simple page)
-      url: /help/user-guide/viewing-project-in-single-page
-    - title: Compliance with ISA-JSON schemas
-      url: /help/user-guide/isa-json-compliant-experiment
   -
     #hr: true
     title: User guide for API
