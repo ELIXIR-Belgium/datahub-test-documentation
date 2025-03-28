@@ -4,7 +4,9 @@ redirect_from: "/proteomics-guidelines.html"
 ---
 
 
-{% include callout.html type="warning" content="This guide has been archived. Please see the [user guide](/help/user-guide) for the latest help." %}
+{% assign guide_url = site.baseurl | append: '/help/user-guide' %}
+{% assign callout_content = "This guide has been archived. Please see the [user guide](" | append: guide_url | append: ") for the latest help." %}
+{% include callout.html type="warning" content=callout_content %}
 
 {% include callout.html type="note" content="This guide refers to SEEK, but is also relevant for [FAIRDOMHUB](https://www.fairdomhub.org/), which is an instance of SEEK." %}
 
@@ -28,8 +30,7 @@ The associated examples are templates for Mass Spectrometry experiments. These h
 
 Embedded in the spreadsheet are some macros that will help you annotate your data with terms from controlled vocabularies where appropriate.
 
-## Contributing 
+## Contributing
 SEEK documentation is a community driven activity. If you have any modifications you want to make to the guidelines please send requests, or feedback to <community@fair-dom.org>.
 
 [1]: http://www.ebi.ac.uk/pride/
-  

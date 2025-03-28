@@ -12,9 +12,9 @@ SEEK Issue tracking: [https://fair-dom.org/issues](https://fair-dom.org/issues)
 
 SEEK software website: [https://seek4science.org](https://seek4science.org)
 
-SEEK installation guide: [/tech/install](/tech/install)
+SEEK installation guide: [/tech/install]({{ site.baseurl }}/tech/install)
 
-SEEK changelog: [/tech/releases/](/tech/releases)
+SEEK changelog: [/tech/releases/]({{ site.baseurl }}/tech/releases)
 
 JERM ontology: [https://jermontology.org](https://jermontology.org)
 

@@ -71,5 +71,5 @@ If ISA-JSON compliance feature is enabled, an option appears in the Server admin
 
 The Experiment Sample Templates must be in .json format and comply to the expected specification. JSON definitions of Experiment Sample Templates tailored for submission towards EBI repositories can be found in this [GitHub repository](https://github.com/ELIXIR-Belgium/ISA-merger).
 
-![experiment view](/images/user-guide/isajson-compliance/serveradmin-expsampletemplate-jsonupload.png){:.screenshot}
+![experiment view]({{ site.baseurl }}/images/user-guide/isajson-compliance/serveradmin-expsampletemplate-jsonupload.png){:.screenshot}
 

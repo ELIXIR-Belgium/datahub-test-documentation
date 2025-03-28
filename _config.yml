@@ -1,6 +1,6 @@
 #baseurl: /seek
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@4.1.0
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@add-custom-repository-branch
 
 current_seek_version: "1.16.1"
 current_docker_tag: "1.16"
@@ -9,7 +9,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-title: "FAIRDOM-SEEK Documentation"
+title: "DataHub Documentation"
+topnav_title: ""
+instance_name: "DataHub"
+
 
 exclude:
  - Gemfile*
@@ -35,10 +38,11 @@ defaults:
     values:
       sidebar: tech
 
-theme_variables: 
+theme_variables:
+  breadcrumb: true
   #git_host: GitHub
   #back_to_top: true
-  #github_buttons: 
+  #github_buttons:
   #  position: top
   #  edit_me: true
   #  open_issue: true
@@ -48,8 +52,13 @@ theme_variables:
   #   headings: 'h2'
   topnav:
     theme: light
-    brand_logo: images/fairdom-seek-logo-header.png
+    brand_logo: images/datahub_logo.png
     #github: true
     #twitter: false
   theme_color: 8cddf6
 # theme color is not working! Trying c23669 from RDMkit doesn't help
+
+github:
+  repository_url: https://github.com/seek4science/seek-documentation
+  source:
+    branch: main

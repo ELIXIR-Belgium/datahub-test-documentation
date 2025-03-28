@@ -3,13 +3,15 @@ title: Controlled vocabularies and ontologies
 redirect_from: "/controlled-vocabularies.html"
 ---
 
-{% include callout.html type="warning" content="This guide has been archived. Please see the [user guide](/help/user-guide) for the latest help." %}
+{% assign guide_url = site.baseurl | append: '/help/user-guide' %}
+{% assign callout_content = "Please see the [user guide](" | append: guide_url | append: ") for the latest help." %}
+{% include callout.html type="warning" content=callout_content %}
 
 {% include callout.html type="note" content="This guide refers to SEEK, but is also relevant for [FAIRDOMHUB](https://www.fairdomhub.org/), which is an instance of SEEK." %}
 
 We recommend SEEK users use identifiers from public databases and terms from community ontologies wherever possible when describing and annotating data and models. The following table shows the resources available for annotation by biological object category. These represent the most commonly used within System Biology.
 
-## Contributing 
+## Contributing
 SEEK documentation is a community driven activity, and we are always looking to expand. If you have any modifications you want to make to the list please send requests, or feedback to <community@fair-dom.org>.
 
 <table>
@@ -113,11 +115,11 @@ Accessing and navigating these resources can be difficult and time-consuming for
 
 ### RightField
 
-RightField (http://www.rightfield.org.uk) allows the easy annotation of excel spreadsheet data with terms from community ontologies. Relevant ranges of ontology terms can be embedded into spreadsheets in specific cells as simple drop-down lists. This allows consistent and standards-compliant annotation without the need to browse or navigate the ontologies.   
-Multiple ontologies can be used in the same spreadsheet, and the sources of each term and the version of each ontology is automatically collected and recorded.   
+RightField (http://www.rightfield.org.uk) allows the easy annotation of excel spreadsheet data with terms from community ontologies. Relevant ranges of ontology terms can be embedded into spreadsheets in specific cells as simple drop-down lists. This allows consistent and standards-compliant annotation without the need to browse or navigate the ontologies.
+Multiple ontologies can be used in the same spreadsheet, and the sources of each term and the version of each ontology is automatically collected and recorded.
 A collection of SysMO templates have already been RightField-enabled. These templates are available for download from the templates page and from the SysMO-DB project in the SEEK.
 
 ### JWS OneStop
 
-OneStop assists with model annotation and publishing. It is a one-stop-shop for producing a MIRIAM-compliant, annotated model in SBML. OneStop extracts the names used for species and reactions in an uploaded model and uses these names to search public databases for the official terms and MIRIAM identifiers. It uses the Semantic SBML web service (http://semanticsbml.org/) for searching and returns a list of possible matches that the modellers can select from. This ensures the accuracy of each annotation whilst providing an easy mechanism for identifying possible matches.   
-In addition to annotations, OneStop also provides editing and validation functionality as well as automatically exporting models in SBGN.  
+OneStop assists with model annotation and publishing. It is a one-stop-shop for producing a MIRIAM-compliant, annotated model in SBML. OneStop extracts the names used for species and reactions in an uploaded model and uses these names to search public databases for the official terms and MIRIAM identifiers. It uses the Semantic SBML web service (http://semanticsbml.org/) for searching and returns a list of possible matches that the modellers can select from. This ensures the accuracy of each annotation whilst providing an easy mechanism for identifying possible matches.
+In addition to annotations, OneStop also provides editing and validation functionality as well as automatically exporting models in SBGN.

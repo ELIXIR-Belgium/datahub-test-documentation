@@ -8,7 +8,7 @@ redirect_from: "/earlier-upgrades.html"
 **Also if upgrading from a Mercurial based SEEK to our Git one, please contact
 us. Mercurial versions of SEEK are only available up to v0.21.**
 
-You can find details on how to contact us at the [Contact Page](/contacting-us)
+You can find details on how to contact us at the [Contact Page]({{ site.baseurl }}/contacting-us)
 
 When upgrading between versions greater than v0.11.x you need to upgrade to
 each released minor version in order incrementally (i.e. 0.13.x -> 0.14.x ->
@@ -28,7 +28,7 @@ followed by the version - e.g. v0.11.1, v0.13.2, v0.17.1
 
 ### Stopping services before upgrading
 
-    bundle exec rake seek:workers:stop 
+    bundle exec rake seek:workers:stop
 
 ### Getting the upgrade
 
@@ -136,7 +136,7 @@ you may remove 3.7 unless it is used for other applications. If unsure there is 
 
 ### Stopping services before upgrading
 
-    bundle exec rake seek:workers:stop 
+    bundle exec rake seek:workers:stop
 
 ### Getting the upgrade
 
@@ -207,7 +207,7 @@ SEEK requires some cron jobs for periodic background jobs to run. To update thes
 ### Restarting background job services
 
     bundle exec rake seek:workers:start
- 
+
 ---
 
 ## Steps to upgrade from 1.12.x to 1.13.x
@@ -235,7 +235,7 @@ and now install the packages:
 
 ### Stopping services before upgrading
 
-    bundle exec rake seek:workers:stop 
+    bundle exec rake seek:workers:stop
 
 ### Updating from GitHub
 
@@ -363,7 +363,7 @@ content.
     gem install bundler
     bundle install --deployment --without development test
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
+    bundle exec rake assets:precompile # this task will take a while
 
 ### Update Cron Services
 
@@ -379,7 +379,7 @@ It is relatively straightforward and there are instructions on how to do this in
 
 ### Restarting background job services
 
-    bundle exec rake seek:workers:start    
+    bundle exec rake seek:workers:start
 
 ## Stopping soffice
 
@@ -447,7 +447,7 @@ content.
     gem install bundler
     bundle install --deployment --without development test
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
+    bundle exec rake assets:precompile # this task will take a while
 
 ### Setup Cron Services
 
@@ -458,9 +458,9 @@ This version includes an update to ActiveJob and requires some cron jobs for per
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start                
-    
-    bundle exec rake tmp:clear  
+    bundle exec rake seek:workers:start
+
+    bundle exec rake tmp:clear
 
 ---
 
@@ -474,7 +474,7 @@ If you are not prompted you can install with the command:
     rvm install ruby-2.4.10
 
 ### Set RAILS_ENV
-              
+
 
 **If upgrading a production instance of SEEK, remember to set the RAILS_ENV first**
 
@@ -521,15 +521,15 @@ content.
     gem install bundler
     bundle install --deployment
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
-       
+    bundle exec rake assets:precompile # this task will take a while
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start                
-    
-    bundle exec rake tmp:clear         
+    bundle exec rake seek:workers:start
+
+    bundle exec rake tmp:clear
 
 ---
 
@@ -543,7 +543,7 @@ If you are not prompted you can install with the command:
     rvm install ruby-2.4.9
 
 ### Set RAILS_ENV
-              
+
 
 **If upgrading a production instance of SEEK, remember to set the RAILS_ENV first**
 
@@ -591,17 +591,17 @@ content.
     gem install bundler
     bundle install --deployment
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
-       
+    bundle exec rake assets:precompile # this task will take a while
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start                
-    
+    bundle exec rake seek:workers:start
+
     bundle exec rake tmp:clear
 
----    
+---
 
 ## Steps to upgrade from 1.7.x to 1.8.x
 
@@ -613,7 +613,7 @@ If you are not prompted you can install with the command:
     rvm install ruby-2.4.5
 
 ### Set RAILS_ENV
-              
+
 
 **If upgrading a production instance of SEEK, remember to set the RAILS_ENV first**
 
@@ -661,17 +661,17 @@ content.
     gem install bundler
     bundle install --deployment
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
-       
+    bundle exec rake assets:precompile # this task will take a while
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start                
-    
+    bundle exec rake seek:workers:start
+
     bundle exec rake tmp:clear
-    
----    
+
+---
 
 ## Steps to upgrade from 1.6.x to 1.7.x
 
@@ -684,7 +684,7 @@ If you are not prompted you can install with the command:
 
 
 ### Set RAILS_ENV
-              
+
 
 **If upgrading a production instance of SEEK, remember to set the RAILS_ENV first**
 
@@ -732,18 +732,18 @@ content.
     gem install bundler
     bundle install --deployment
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
-       
+    bundle exec rake assets:precompile # this task will take a while
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start                
+    bundle exec rake seek:workers:start
 
     touch tmp/restart.txt
     bundle exec rake tmp:clear
-    
----    
+
+---
 
 ## Steps to upgrade from 1.5.x to 1.6.x
 
@@ -752,24 +752,24 @@ content.
 This version requires at least **Java 8**. Please make sure this is installed by trying:
 
     java --version
-    
+
 which should report java version 1.8.0 or greater. If not, install with:
 
     sudo apt install openjdk-8-jdk
     java --version
 
 if this still doesn't report the correct version you may need to do:
-   
+
     sudo update-alternatives --config java
-    
+
 .. and select the _java-8_ version
 
-You can also use the Oracle version of Java 8. This can be easily installed with Apt, through the 
+You can also use the Oracle version of Java 8. This can be easily installed with Apt, through the
 [Oracle PPA](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
 
 
 ### Set RAILS_ENV
-              
+
 
 **If upgrading a production instance of SEEK, remember to set the RAILS_ENV first**
 
@@ -817,15 +817,15 @@ content.
     gem install bundler
     bundle install --deployment
     bundle exec rake seek:upgrade
-    bundle exec rake assets:precompile # this task will take a while       
-       
+    bundle exec rake assets:precompile # this task will take a while
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
     bundle exec rake seek:workers:start
-    
----    
+
+---
 
 
 ## Steps to upgrade from 1.4.x to 1.5.x
@@ -872,7 +872,7 @@ If you have a modified _config/sunspot.yml_ you will also need to copy that acro
 ### Update RVM and Ruby
 
     rvm get stable
-    rvm install $(cat .ruby-version) 
+    rvm install $(cat .ruby-version)
 
 ### Doing the upgrade
 
@@ -885,18 +885,18 @@ content.
     bundle install --deployment
     bundle exec rake seek:upgrade
     bundle exec rake assets:precompile # this task will take a while
-    
+
 **Note**: During the upgrade, and items that previously were shared with _All registered users_ have had their permissions updated,
 and this permission has been transferred to its associated projects. An audit CSV file is created, tmp/all-users-policy-update-audit-<timestamp>.csv .
-This file contains a list of all the items affected, along with the contributor and project ids.    
-       
+This file contains a list of all the items affected, along with the contributor and project ids.
+
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start  
-    
----    
+    bundle exec rake seek:workers:start
+
+---
 
 ## Steps to upgrade from 1.3.x to 1.4.x
 
@@ -944,7 +944,7 @@ If you have a modified _config/sunspot.yml_ you will also need to copy that acro
 ### Update RVM and Ruby
 
     rvm get stable
-    rvm install $(cat .ruby-version) 
+    rvm install $(cat .ruby-version)
 
 ### Doing the upgrade
 
@@ -957,35 +957,35 @@ content.
     bundle install --deployment
     bundle exec rake seek:upgrade
     bundle exec rake assets:precompile # this task will take a while
-    
+
 ### Updating the Sunspot configuration
-    
+
 If you moved away from the default Sunspot/SOLR config, by making your own copy of _config/sunspot.yml_, this will need updating.
 
 If you don't have a _config/sunspot.yml_ you don't need to do anything.
-   
-Update your _sunspot.yml_ based on the new format in _[config/sunspot.default.yml](https://raw.githubusercontent.com/seek4science/seek/v1.4.1/config/sunspot.default.yml)_   
+
+Update your _sunspot.yml_ based on the new format in _[config/sunspot.default.yml](https://raw.githubusercontent.com/seek4science/seek/v1.4.1/config/sunspot.default.yml)_
 
 ### Restarting services
 
     bundle exec rake sunspot:solr:start
-    bundle exec rake seek:workers:start            
+    bundle exec rake seek:workers:start
 
 If you are running a production SEEK behing Apache, then move onto the next part. Otherwise, or you want to do a quick test,
- you can simply start SEEK again with:  
-  
-    bundle exec rails s    
-            
-    
+ you can simply start SEEK again with:
+
+    bundle exec rails s
+
+
 ### Upgrading Passenger Phusion
-    
+
 If you are running SEEK with Passenger, it is likely you will need to upgrade Passenger and your Apache or Ngninx configuration.
- 
-Please read [Serving SEEK through Apache](/tech/install-production#serving-seek-through-apache) for a reminder
+
+Please read [Serving SEEK through Apache]({{ site.baseurl }}/tech/install-production#serving-seek-through-apache) for a reminder
 on how to install the new version, and update your virtual host configuration accordingly.
 
 ### Note on Search results
-    
+
 Initially you won't get any search results, due to the upgrade of Sunspot/SOLR. The upgrade steps will have triggered
 some jobs to rebuild the search index. How long this takes depends upon the number of items in the database and the speed of your
 machine. You can track the progress by going to the Admin page of _SEEK_, and looking at _Job Queue_ under _Statistics_.
@@ -1408,8 +1408,8 @@ and other necessary changes:
     bundle exec rake tmp:clear
 
 ---
-    
-    
+
+
 
 # Upgrades to 0.21.x and earlier
 
@@ -1516,8 +1516,8 @@ You may also need to enable a couple of Apache modules, so run:
 You will then need to restart Apache
 
     sudo service apache2 restart
-    
----    
+
+---
 
 ## Steps to upgrade from 0.18.x to 0.19.x
 
@@ -1538,8 +1538,8 @@ Upgrading follows the standard steps:
     touch tmp/restart.txt
     bundle exec rake tmp:assets:clear RAILS_ENV=production
     bundle exec rake tmp:clear RAILS_ENV=production
-    
----    
+
+---
 
 ## Steps to upgrade from 0.17.x to 0.18.x
 

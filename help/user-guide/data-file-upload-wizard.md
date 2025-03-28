@@ -23,7 +23,7 @@ You can also jump straight to the end or back to the start by clicking the "End"
 
 ### General information
 
-![wizard general info](/images/user-guide/data-wizard-step1.png){:.screenshot}
+![wizard general info]({{ site.baseurl }}/images/user-guide/data-wizard-step1.png){:.screenshot}
 
 You should provide the basic general metadata about the data file:
 
@@ -34,7 +34,7 @@ You should provide the basic general metadata about the data file:
 
 ### Licensing and sharing
 
-![wizard sharing](/images/user-guide/data-wizard-step2.png){:.screenshot}
+![wizard sharing]({{ site.baseurl }}/images/user-guide/data-wizard-step2.png){:.screenshot}
 
 The preferred license for the data, and sharing permissions can now be set. These will automatically be the project defaults, if they have been defined for the project.
 
@@ -43,26 +43,26 @@ The preferred license for the data, and sharing permissions can now be set. Thes
 
 ### Associated Assays
 
-![wizard assays](/images/user-guide/data-wizard-step3.png){:.screenshot}
+![wizard assays]({{ site.baseurl }}/images/user-guide/data-wizard-step3.png){:.screenshot}
 
 For this step, you can defined the Assays the Data will be linked to. This will usually be an existing Assay.
 
 * [Experimental assays and Modelling analysis](general-attributes#experimental-assays-and-modelling-analysis)
 
 If necessary, it is also possible to create a new Assay during this step:
-    
+
   * Select the New Assay tab
   * Tick the Create a New Assay checkbox
-  
+
 ### Other associated items
 
-![wizard other associations](/images/user-guide/data-wizard-step4.png){:.screenshot}
+![wizard other associations]({{ site.baseurl }}/images/user-guide/data-wizard-step4.png){:.screenshot}
 
 The final step allows you to associate the Data with other items, if necessary.
 
 * [Attributions](general-attributes#attributions)
 * [Publications](general-attributes#publications)
 * [Events](general-attributes#events)
-  
-  
+
+
 

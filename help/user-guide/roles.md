@@ -3,7 +3,7 @@ title: Specialist User Roles
 ---
 
 
-SEEK has a number of specialist roles to which users can be assigned 
+SEEK has a number of specialist roles to which users can be assigned
 
 Programme specific roles:
 
@@ -17,7 +17,7 @@ Project specific roles:
 
 Here is a summary of the capabilities of each role.
 
-![Roles 1](/images/user-guide/roles_1.png){:.screenshot}
+![Roles 1]({{ site.baseurl }}/images/user-guide/roles_1.png){:.screenshot}
 
 ## Programme administrator
 
@@ -54,7 +54,7 @@ The item will not become available until the asset gatekeeper has approved it.
 
 Gatekeepers can access a list of publishing requests by clicking the menu "My profile" and then the button "Assets you are Gatekeeping".
 
-![gatekeeper gatekeeping](/images/user-guide/gatekeeper_gatekeeping.png){:.screenshot}
+![gatekeeper gatekeeping]({{ site.baseurl }}/images/user-guide/gatekeeper_gatekeeping.png){:.screenshot}
 
 Gatekeepers are granted permission to view the items in question (if they don't already have it),
 so that they can decide whether to approve or reject the request.
@@ -75,7 +75,7 @@ An item is only considered *published* if its **Public** sharing permissions are
 - **View** if the item is not downloadable (Investigations, Studies, Assays...)
 - **Download** if the item is downloadable (SOPs, Documents, Data Files...)
 
-Note that this means: 
+Note that this means:
 * *downloadable* items can be set to **View** without involving the gatekeeper
 * *permissions* can be extended to individuals or groups without involving the gatekeeper
 
@@ -90,7 +90,7 @@ This applies to both items that have been created before and after the gatekeepe
 
 You can access a list of the items you have requested to be published by clicking the menu "My profile" and then the button "Assets awaiting approval".
 
-![gatekeeper awaiting approval](/images/user-guide/gatekeeper_awaiting_approval.png){:.screenshot}
+![gatekeeper awaiting approval]({{ site.baseurl }}/images/user-guide/gatekeeper_awaiting_approval.png){:.screenshot}
 
 This allows you to monitor whether the gatekeeper has made a decision on your items or not.
 If an item was rejected, you will be able to see the gatekeeper's comments from this list.

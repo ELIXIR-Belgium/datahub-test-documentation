@@ -4,17 +4,17 @@ title: A Complete Example to Create Extended Metadata Types by Uploading a JSON 
 
 Here is a step-by-step example of how to create a new extended metadata type using all the attribute types mentioned in our guide: [Create Extended Metatypes by Uploading a JSON File](create-extended-metadata-type-with-json-file).
 
-## Step 1: Define Controlled Vocabularies 
+## Step 1: Define Controlled Vocabularies
 
 Currently, controlled vocabularies can only be created through the user interface by anyone with permission to create resources in SEEK.
 
 You can also use the following direct link  ```HTTP://{HOST_NAME}/sample_controlled_vocabs/new``` to create controlled vocabularies or the button on the [Controlled Vocabulary](manage-extended-metadata-type/#3-controlled-vocabularies-tab) tab.
 
 Assuming the controlled vocabularies have been created here:
-![extended-metadata-fields](/images/user-guide/extended-metadata/cvs-tab.png)
+![extended-metadata-fields]({{ site.baseurl }}/images/user-guide/extended-metadata/cvs-tab.png)
 
-You can view the detailed controlled vocabularies by clicking the corresponding its ID. 
-![extended-metadata-fields](/images/user-guide/extended-metadata/role_name_identifier_scheme_cv.png)
+You can view the detailed controlled vocabularies by clicking the corresponding its ID.
+![extended-metadata-fields]({{ site.baseurl }}/images/user-guide/extended-metadata/role_name_identifier_scheme_cv.png)
 
 ## Step 2: Define Nested Extended Metadata Types
 
@@ -183,9 +183,9 @@ Step 2.2. Define a new metadata type called `role_emt`, which will have one attr
 }
 ```
 
-## Step 4: Use Extended Metadata Type 
+## Step 4: Use Extended Metadata Type
 
 As the result, you can choose to load this extended metadata type on the study creation page.
-![](/images/user-guide/extended-metadata/emt-ui.png)
+![]({{ site.baseurl }}/images/user-guide/extended-metadata/emt-ui.png)
 
 
