@@ -27,7 +27,7 @@ Note that it is possible to create a new Programme with a new Project within, in
 ### 4. Create a research Project
 Now, you have to create a Project. A Project in DataHub should correspond to a research project of a PhD student or a PostDoc in your group or a larger research project (such as an ERC). Take into account that each Project can be further splitted in more than one Investigation.
 
-See example of how to [organise your research]({{ "/dh-organise.html" | relative_url }}) in DataHub.
+See example of how to [organise your research]({{ "/experiment-organisation" | relative_url }}) in DataHub.
 
 Follow the link to see how to [create a Project]({{ "/help/user-guide/create-a-project.html#creating-a-project" | relative_url }}) - this is instance specific.
 By default, you will be assigned as member and administrator of the created Project. This can be changed later.
