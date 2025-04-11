@@ -7,7 +7,7 @@ custom_repo_branch: datahub-latest-documentation
 
 ## Overview
 
-![overview]({{ "/images/usecases-dh/overview.png" | relative_url }}){:.screenshot}
+![DataHub Experiment Organisation]({{ "/images/usecases-dh/datahub_experiment_organisation.png" | relative_url }}){:.screenshot}
 
 ## Group leader
 
