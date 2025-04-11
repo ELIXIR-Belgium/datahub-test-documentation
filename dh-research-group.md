@@ -15,7 +15,7 @@ custom_repo_branch: datahub-latest-documentation
 As first step, you have to create an account in DataHub. Follow the link to see how to [register]({{"help/user-guide/registering" | relative_url}}).
 
 ### 2. Login
-To start organising your research, you must me logged in. Follow the link to see how to [login]({{ "/help/user-guide/login" | relative_url }}).
+To start organising your research, you must be logged in. Follow the link to see how to [login]({{ "/help/user-guide/login" | relative_url }}).
 
 ### 3. Create a Programme
 Create a Programme to group all your research projects under it. The title of the Programme could be the name of your laboratory or of your research unit. Follow the link to see how to [create a Programme]({{ "/help/user-guide/programme-creation-and-management#creating-a-programme" | relative_url }}).
