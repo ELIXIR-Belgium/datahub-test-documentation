@@ -20,49 +20,25 @@ For more specific documentation related to {{ site.instance_name }}, users shoul
 
 ### Step-by-step guides
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4 mb-2">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mb-2">
     <div class="col">
         <div class="card rounded shadow shadow-hover h-100">
             <div class="card-body">
                 <h4 class="card-title mt-0"> For instance admins </h4>
-                <p class="card-text text-justify">If you would like to deploy your own instance of {{ site.instance_name }}, follow <a href={{ "/deploy-datahub" | relative_url }}>this guide</a> to get an overview of the features you need to enable in the admin panel. </p>
+                <p class="card-text text-justify">If you would like to deploy your own instance of {{ site.instance_name }}, follow <a href="{{ "/deploy-datahub" | relative_url }}">this guide</a> to get an overview of the features you need to enable in the admin panel. </p>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card rounded shadow shadow-hover h-100">
             <div class="card-body">
-                <h4 class="card-title mt-0"> For research group </h4>
+                <h4 class="card-title mt-0"> For research groups </h4>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><a href="{{ "/step-by-step-research-group#overview" | relative_url }}">Overview</a></li>
                     <li class="list-group-item"><a href="{{ "/step-by-step-research-group#group-leader" | relative_url }}">Group leader</a></li>
                     <li class="list-group-item"><a href="{{ "/step-by-step-research-group#researcher" | relative_url }}">Researcher</a></li>
                     <li class="list-group-item"><a href="{{ "/step-by-step-research-group#creator-of-templates" | relative_url }}">Creator of templates</a></li>
                 </ul>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card rounded shadow shadow-hover h-100">
-            <div class="card-body">
-                <h4 class="card-title mt-0"> For Research Consortia </h4>
-                <p class="card-text text-justify">Text about consortia</p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card rounded shadow shadow-hover h-100">
-            <div class="card-body">
-                <h4 class="card-title mt-0"> For Research Core Facilities </h4>
-                <p class="card-text text-justify">Text about Research Core Facilities</p>
-            </div>
-        </div>
-    </div>
-    <div class="col">
-        <div class="card rounded shadow shadow-hover h-100">
-            <div class="card-body">
-                <h4 class="card-title mt-0"> For Research Institutes or infrastructure providers</h4>
-                <p class="card-text text-justify">Text about Research Core Facilities</p>
             </div>
         </div>
     </div>
