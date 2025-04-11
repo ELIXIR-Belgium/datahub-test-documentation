@@ -75,14 +75,14 @@ Follow the link to see how to apply [sharing-permission]({{ "/help/user-guide/ge
 ### 5. Design an ISA Investigation
 An ISA Investigation could be a part of a bigger research project or an aspect of a research project (e.g. in vivo studies). It is a way to group related ISA Studies. Even if there is no need to further group the research, an Investigation must be created and could be titled as the Project.
 
-See example of how to [organise your research]({{ "/dh-organise.html" | relative_url }}).
+See example of how to [organise your research]({{ "//experiment-organisation.html" | relative_url }}).
 
 Follow the link to see how to [design an ISA Investigation]({{ "/help/user-guide/designing-experiments-isajson-compliant.html#1-creating-an-isa-investigation" | relative_url }}).
 
 ### 6. Design an ISA Study
 An ISA Study is a central concept containing information on the subject under study (or observation unit), its characteristics and any treatments applied. A Study is a particular hypothesis, which you are planning to test, using various techniques.
 
-See example of how to [organise your research]({{ "/dh-organise.html" | relative_url }}).
+See example of how to [organise your research]({{ "//experiment-organisation.html" | relative_url }}).
 
 Follow the link to know more about what constitutes an [ISA Study]({{ "/help/user-guide/isa-json-compliant-experiment.html#isa-study" | relative_url }}).
 
