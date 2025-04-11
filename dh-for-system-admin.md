@@ -5,7 +5,7 @@ custom_repo_url: https://github.com/ELIXIR-Belgium/datahub-test-documentation
 custom_repo_branch: datahub-latest-documentation
 ---
 
-Should you want to deploy your own DataHub-like instance of FAIRDOM-SEEK, you can folow this guide.
+Should you want to deploy your own DataHub-like instance of FAIRDOM-SEEK, you can follow this guide.
 As system administrator, you have access to the Server admin panel. You can go to the Server admin panel by selecting your Name/account at the top right corner and selecting "Server admin" from the dropdown menu.
 
 ## The admin panel in the web UI
