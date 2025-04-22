@@ -5,7 +5,7 @@ permalink: /use-cases
 custom_repo_url: https://github.com/ELIXIR-Belgium/datahub-test-documentation
 custom_repo_branch: datahub-latest-documentation
 ---
-See for yourself how DataHub is being used or where it has been integrated in.
+Explore both existing and upcoming applications and integrations of DataHub.
 
 ## ENA-upload tool
 
