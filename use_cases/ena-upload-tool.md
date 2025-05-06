@@ -21,9 +21,7 @@ The full extend of the documentation on the ENA Upload Tool can be found on the 
 
 ## Step-by-step guide
 
-This guide describes the steps to perform a submission of experimental data and metadata towards ENA. The guide starts from the perspective of a metadata producing platform, which is DataHub in this case, and feeds the metadata together with the data to the ENA Upload Tool.
-
-The usage of the ENA Upload Tool is split in two flows, depending on your personal preference. Follow the [Using the CLI tool](#using-the-cli-tool) guide to use the CLI from the terminal or the [On usegalaxy.be](#on-usegalaxybe) guide to do the test submission through usegalaxy.
+This guide describes the steps to perform a submission of experimental data and metadata towards ENA. The guide starts from the perspective of a metadata producing platform, which is DataHub in this case, and feeds the metadata together with the data into the ENA Upload Tool.
 
 Feel free to use your own experimental data and metadata to do the submission or use our public demo experiment on [DataHub Use-case](https://datahub-usecase.elixir-belgium.org/investigations/1) to follow along.
 
@@ -40,3 +38,5 @@ Steps:
 ### Start a submission towards ENA
 
 For the actual submission towards ENA, we refer to the '[ENA Data Submission Toolbox](https://rdm.elixir-belgium.org/ena-submission)' article in the RDM Guide, which describes how to use the ENA Upload Tool.
+
+The usage of the ENA Upload Tool is split in two flows, depending on your personal preference. Follow the [ENA upload CLI](https://rdm.elixir-belgium.org/ena-submission#ena-upload-cli) guide to use the CLI from the terminal or the [Galaxy ENA upload tool](https://rdm.elixir-belgium.org/ena-submission#galaxy-ena-upload-tool) guide to do the test submission through usegalaxy.

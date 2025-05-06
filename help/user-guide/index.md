@@ -4,7 +4,7 @@ redirect_from:
   - /help
 ---
 
-The {{ site.instance_name }} user guide is written for users of any FAIRDOM-SEEK instance. The pages are organised by sections on the left. You can also search at the top-right of any page.
+The FAIRDOM-SEEK user guide is written for users of any FAIRDOM-SEEK instance. The pages are organised by sections on the left. You can also search at the top-right of any page.
 
 <i class="fa-solid fa-user-group fa-5x"></i> <i class="fa-solid fa-book fa-5x"></i>
 
