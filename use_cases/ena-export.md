@@ -42,8 +42,6 @@ Step by step guide:
 
 8. The resulting tables are ready for submission to ENA using the [ENA-upload-cli](https://github.com/usegalaxy-eu/ena-upload-cli) tool.
 
-Note: Pressing the ENA export button will always generate 4 tables. If no Samples in the Project belong to the Sample Types mentioned, the tables are exported empty.
-
 Instructions on how to use the ENA-upload-cli tool can be found [here](https://github.com/usegalaxy-eu/ena-upload-cli). This tool is used to submit the tables exported from DataHub and the corresponding data files to ENA. The tool provides a receipt file upon successful submission. The tool will also provide you with updated versions of each table. These contain an updated status attribute, and information added by ENA, such as accession numbers and submission date.
 
 ## Explanation for the attributes of each Sample Type:
